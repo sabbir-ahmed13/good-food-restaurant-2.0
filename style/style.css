@@ -293,8 +293,11 @@ nav a {
   padding: 10px 20px;
   border: 1px solid black;
   border-radius: 10px;
+  box-shadow: 0 0 8px black;
+  transition: 0.5s;
   font-weight: bolder;
   font-size: large;
+  color: black;
 }
 
 nav {
@@ -305,10 +308,13 @@ nav {
 
 nav a:hover {
   text-decoration: none;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(59, 59, 59);
   text-align: center;
   padding: 10px 20px;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  color: rgb(202, 202, 202);
+  transition: 0.5s;
   font-weight: bolder;
   font-size: large;
 }
